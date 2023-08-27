@@ -10,6 +10,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { getAllCharacters } from '@/lib/characters'
 
+;<script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5607625874739255"
+  crossorigin="anonymous"
+></script>
+
 export default async function Page() {
   const data = await getAllCharacters()
 
